@@ -9,7 +9,7 @@ function Banner() {
                     <div className="space-y-12">
                         <h1 className="text-4xl font-bold">
                             Hello, Welcome to{" "}
-                            <span className="text-pink-500">Maple Institute Of Education!!!</span>
+                            <span className="text-cyan-700">Maple Institute Of Education!!!</span>
                         </h1>
                         <p className="text-xl">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
@@ -19,7 +19,7 @@ function Banner() {
                             <input type="text" className="grow" placeholder="Email" />
                         </label>
                     </div>
-                    <button className="btn mt-6 btn-secondary">Get Started</button>
+                    <button className="btn mt-6 btn-secondary ">Get Started</button>
                 </div>
                 <div className=" order-1 w-full md:w-1/2">
                     <img src={banner} className="w-92 h-92" alt="" />
