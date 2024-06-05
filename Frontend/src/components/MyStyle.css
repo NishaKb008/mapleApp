@@ -81,3 +81,71 @@ input.grow.outline-none{
     font-size: 13px;
     color: #000 !important;
 }
+
+.db{
+    display: block;
+}
+.lib{
+    width: 100%;
+}
+.outline-none{
+    padding: 5px 10px !important;
+}
+.bg-cyan-600{
+    color: #fff !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .text-3xl{
+    font-size: 16px !important;
+    line-height: 20px !important;
+   }
+   .db{
+    display: none;
+}
+.dn{
+    display: block;
+}
+.mr-10{
+    margin-right: 10px !important;
+}
+.lib{
+    width: auto;
+}
+
+.navbar-start{
+    width: 68% !important;
+}
+.navbar-end{
+    width: 18% !important;
+}
+.logo img{
+    width: 50px !important;
+}
+.login{
+    margin-top: 10px;
+    clear: both;   
+}
+.navbar {
+    padding-left: 0px !important;
+}
+.navbar .btn{
+    padding-left: 0px !important;
+}
+.text-4xl{
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+.space-y-12 > :not([hidden]) ~ :not([hidden]){
+    margin-top: 10px !important;
+}
+.text-xl, p{
+    font-size: 13px !important;
+    line-height: 20px !important;
+}
+.btn{
+    font-size: 13px !important;
+}
+
+  }
+  
