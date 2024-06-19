@@ -2,11 +2,12 @@ import React from 'react'
 import Image04 from "../../public/Image04.jpeg";
 import Slider from 'react-slick';
 import "./MyStyle.css";
+import { Link } from "react-router-dom";
 
 function AboutUs() {
-  return (
-    <>
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+    return (
+        <>
+            <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
                 <div className="mt-36 items-center justify-center text-center">
                     <h1 className="mx-5 text-2xl font-semibold md:text-4xl">
                         WHO WE ARE ?{" "} <br />
@@ -15,9 +16,11 @@ function AboutUs() {
                     <p className="mt-6">
 
                     </p>
-                    <button className=" text-xl bg-cyan-600 text-white mx-5 px-6 py-2 rounded-md hover:bg-cyan-800 duration-300">
-                        Back
-                    </button>
+                    <Link to="/">
+                        <button className=" text-xl bg-cyan-600 text-white mx-5 px-6 py-2 rounded-md hover:bg-cyan-800 duration-300">
+                            Back
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="mt-6 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row ">
@@ -42,8 +45,8 @@ function AboutUs() {
                     </div>
                 </div>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default AboutUs

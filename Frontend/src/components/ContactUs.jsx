@@ -79,7 +79,7 @@ function ContactUs() {
                             </textarea>
                         </div>
 
-                        <button className=" ml-3 mr-2 bg-green-700 p-3 text-white font-bold" type="submit">Send</button>
+                        <button className=" ml-3 mr-2 bg-cyan-600 p-3 text-white font-bold" type="submit">Send</button>
                         <div className="bg-slate-100 flex flex-col">
                             <div className=" ml-3 mr-2 text-red-600 px-5 py-2">Error Message</div>
                         </div>
